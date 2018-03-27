@@ -6,4 +6,28 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+}
+
+.artistContainer {
+  margin:1em;
+}
+
+.artistPhoto {
+  padding: 0em 1em 0em 0em;
+}
+
+.artistProfile {
+  margin:1em;
+  padding:1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: .25px solid gray;
+}
+
+.artistProfile:nth-child(2n){
+  background: rgb(219, 219, 219);
 }

@@ -8,7 +8,7 @@
   </head>
   <body ng-app="topArtistApp" ng-controller="mainController">
     <h1>last.fm Top 50 Artists</h1>
-    <section ng-repeat="artist in topArtists track by $index" 
+    <section class="artist-container" ng-repeat="artist in topArtists track by $index" 
    ng-include= "'./templates/artist-template.html'"
     >
 

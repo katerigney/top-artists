@@ -10,13 +10,9 @@ angular
       method: "GET",
       url: BASE_URL
     }).then(response => {
-      $scope.topArtists = response.data.artists;
+      $scope.topArtists = response.data.artists.artist;
       console.log($scope.topArtists);
     })
-  
-  
-  
-  
   }]);
 
 // Create a simple UI that displays the top 50 artist from the Last.fm API.

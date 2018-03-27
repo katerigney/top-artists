@@ -7,11 +7,11 @@
 
 <section class="artistProfile">
     <section class="artistPhoto">
-        <img>
+        <img ng-src="{{artist.image[2]['#text']}}">
     </section>
     <section>
         <h1 class="artistName">{{artist.name}}</h1>
-        <h4 class="playCount">{{artist.playcount}}</h4>
-        <h4 class="listenCount">{{artist.listeners}}</h4>
+        <h4 class="playCount">Plays: {{artist.playcount}}</h4>
+        <h4 class="listenCount">Listeners: {{artist.listeners}}</h4>
     </section>
 </section>
